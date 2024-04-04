@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -110,7 +111,7 @@ h1 {
     color: black;
     margin: 0 0.2em;
 }
-
+/*
 .navegacion li ,.navegacion button{
     list-style: none;
 }
@@ -246,11 +247,11 @@ h1 {
     margin: 0.635em 0.3125em;
     backdrop-filter: blur(5px); 
 }
-*/
+
 .seccion4 {
     background-image: url(../Img/herramientas-manuales-basicas-02-2022-07.jpg);
     background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
-    background-position: center; 
+    /*background-position: center; 
     margin: 0.635em 0.3125em;
     backdrop-filter: blur(5px); 
 }
@@ -276,7 +277,7 @@ h1 {
     width: calc( 100% / 3 - 1em);
     margin: 0.3em 0.5em;
 }
-
+*/
 footer {
     background-color: black;
     height: auto;
@@ -314,7 +315,7 @@ footer ul li{
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
-
+/*
 @media only screen and (max-width: 1500px) {
     .secciones {
         flex-direction: column;
