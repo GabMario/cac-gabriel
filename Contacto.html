@@ -35,13 +35,15 @@
     </section>
 
     <section id="registro">
-        <h2>Registro (tus datos)</h2>
+        <h2>Tus datos</h2>
         <form action="#" id="formregistro" method="GET" novalidate>
+            <fieldset>
+                <legend>¡Datos mínimos que te pedimos!</legend>
             <div class="form-control">
                 <label for="">Nombre:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="Anacleto" required>
+                <input type="text" name="nombre" id="nombre" placeholder="Anacleto" required>
             </div>
-            <div class="error" id="error-firstname"></div>
+            <div class="error" id="error-nombre"></div>
             <br>
             <div class="form-control">
                 <label>Apellido:</label>
@@ -88,12 +90,13 @@
             </div>
             <button type="submit">Registrate</button>
             <input type="reset" value="Reseteo">
-            <br><br>
-            <div class="form-help">
-                <a href="#">¿Necesitas ayuda?</a>
+            
             </div>
+            </fieldset>
         </form>
     </section>
+            <div class="form-help">
+                <a href="#">¿Necesitas ayuda?</a>
 </body>
 <footer>
     <br>
