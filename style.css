@@ -113,15 +113,13 @@ h1 {
 
 .navegacion li ,.navegacion button{
     list-style: none;
-    
 }
-
 
 .navegacion li a:hover, button:hover {
     color: rgb(233, 194, 143);
     cursor: pointer;
 }
-
+/*
 .carousel {
     position: relative;
     width: 75%;
@@ -225,8 +223,10 @@ h1 {
 
 .seccion1 {
     background-image: url(../Img/electro.jpg);
-    background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
-    background-position: center; 
+    background-size: cover; 
+    /* Esto hace que la imagen de fondo cubra todo el contenedor
+    */
+   /* background-position: center; 
     margin: 0.635em 0.3125em;
     backdrop-filter: blur(5px); 
 }
@@ -234,7 +234,7 @@ h1 {
 .seccion2 {
     background-image: url(../Img/mueble.jpg);
     background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
-    background-position: center; 
+  /*  background-position: center; 
     margin: 0.635em 0.3125em;
     backdrop-filter: blur(5px); 
 }
@@ -242,11 +242,11 @@ h1 {
 .seccion3 {
     background-image: url(../Img/ropa.jpg);
     background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
-    background-position: center; 
+  /*  background-position: center; 
     margin: 0.635em 0.3125em;
     backdrop-filter: blur(5px); 
 }
-
+*/
 .seccion4 {
     background-image: url(../Img/herramientas-manuales-basicas-02-2022-07.jpg);
     background-size: cover; /* Esto hace que la imagen de fondo cubra todo el contenedor */
