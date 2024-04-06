@@ -121,6 +121,11 @@ h1 {
     color: rgb(233, 194, 143);
     cursor: pointer;
 }
+
+main{
+    height: auto;
+    margin-top: 1.5em;
+   }
 /*
 .carousel {
     position: relative;
